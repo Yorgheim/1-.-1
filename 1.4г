@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 double x[3];
-x[1] = -0.1 ;
-x[2] = -10.5;
-x[3] = 5.8;
-int n=20;
+x[1] = -0.4 ;
+x[2] = 2.4;
+x[3] = 5.0;
+int n=23;
 for (int i = 1; i <= 3; i++) {
 double y = 3.5*(sin(x[i]))*(sin(x[i]))-2.7*(sin(x[i])) + 1;
 double u = 1;
