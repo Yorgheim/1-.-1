@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	int arr[5];
+	int j = 0;
+	int sum = 0;
+	double f = 0.0;
+	for (int i = 0; i < 5; i++)
+		cin >> arr[i];
+	for (int i = 0; i < 5; i++)
+	{
+		if (arr[i] % 2 != 0) 
+		{
+			j++;
+			sum += arr[i];
+		}
+	}
+	f = (double) sum / j;
+	cout << "srednee arifm = " << setprecision(3) << f;
+
+	
+	
+}
